@@ -1,0 +1,33 @@
+mysql> status
+--------------
+
+Connection id:		7553
+Current database:	burger_db
+Current user:		root@localhost
+SSL:			Cipher in use is TLS_AES_256_GCM_SHA384
+Using delimiter:	;
+Server version:		8.0.21 MySQL Community Server - GPL
+Protocol version:	10
+Connection:		localhost via TCP/IP
+Server characterset:	utf8mb4
+Db     characterset:	utf8mb4
+Client characterset:	cp850
+Conn.  characterset:	cp850
+TCP port:		3306
+Binary data as:		Hexadecimal
+Uptime:			16 days 5 hours 24 min 20 sec
+
+Threads: 4  Questions: 4659  Slow queries: 0  Opens: 562  Flush tables: 3  Open tables: 465  Queries per second avg: 0.003
+--------------
+
+mysql> source seeds.sql
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+mysql> exi
+    -> exit
+    -> ^C
+mysql> exit

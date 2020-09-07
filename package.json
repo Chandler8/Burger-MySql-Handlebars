@@ -1,0 +1,31 @@
+{
+  "name": "burger-node-handlebars",
+  "version": "1.0.0",
+  "description": "An app that allows you to keep track of burgers eaten, and burgers left to eat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chandler8/Burger-Node-Handlebars.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Handlebars",
+    "MySql",
+    "Node"
+  ],
+  "author": "Chandler Lowrance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chandler8/Burger-Node-Handlebars/issues"
+  },
+  "homepage": "https://github.com/Chandler8/Burger-Node-Handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
