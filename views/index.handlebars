@@ -34,7 +34,7 @@
                 {{!-- Loop through burger data --}}
                 {{#each burgers}}
                 {{#unless isDevoured}}
-                {{> burgers/burger-block isDevoured=false}}
+                {{> burgers/burger-setup isDevoured=false}}
                 {{/unless}}
                 {{/each}}
 
@@ -58,7 +58,7 @@
                 {{!-- Loops through burgers data --}}
                 {{#each burgers}}
                 {{#if isDevoured}}
-                {{> burgers/burger-block isDevoured=true}}
+                {{> burgers/burger-setup isDevoured=true}}
                 {{/if}}
                 {{/each}}
 
