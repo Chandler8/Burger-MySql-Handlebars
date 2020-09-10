@@ -1,0 +1,43 @@
+body {
+    background-color: goldenrod;
+  }
+  
+  h1 {
+    font-size: 10vw;
+    font-family: 'Metamorphous', sans-serif;
+  }
+  
+  p {
+    font-family: 'Voltaire', sans-serif;
+    font-size: 15px;
+  }
+  
+  table {
+    box-shadow: 1.5px 1.5px #888;
+  }
+  
+  thead,
+  td {
+    background-color: salmon;
+    color: #fff;
+    font-family: 'Voltaire', sans-serif;
+  }
+  
+  thead {
+    font-size: 4vw;
+    font-style: italic;
+  }
+  
+  td {
+    font-size: 15px;
+  }
+  
+  .input-group-rounded .input-group-field {
+    border-radius: 5000px 0 0 5000px;
+    padding-left: 2rem;
+  }
+  
+  .input-group-rounded .input-group-button .button {
+    border-radius: 0 5000px 5000px 0;
+    font-size: 0.8rem;
+  }

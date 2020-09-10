@@ -34,7 +34,7 @@
                 {{!-- Loop through burger data --}}
                 {{#each burgers}}
                 {{#unless isDevoured}}
-                {{> burgers/burger-setup isDevoured=false}}
+                {{> burgers/burger-block isDevoured=false}}
                 {{/unless}}
                 {{/each}}
 
@@ -43,7 +43,7 @@
     </div>
 
     <div class="cell small-4">
-        <img src="/assets/images/burger-wink.png alt="Burger">
+        <img src="/assets/images/burger-wink.png" alt="Burger">
     </div>
 
     <div class="cell small-4">
@@ -58,7 +58,7 @@
                 {{!-- Loops through burgers data --}}
                 {{#each burgers}}
                 {{#if isDevoured}}
-                {{> burgers/burger-setup isDevoured=true}}
+                {{> burgers/burger-block isDevoured=true}}
                 {{/if}}
                 {{/each}}
 
