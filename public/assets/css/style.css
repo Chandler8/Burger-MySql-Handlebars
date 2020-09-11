@@ -3,7 +3,7 @@ body {
   }
   
   h1 {
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: 'Metamorphous', sans-serif;
   }
   
@@ -18,7 +18,7 @@ body {
   
   thead,
   td {
-    background-color: salmon;
+    background-color: red;
     color: #fff;
     font-family: 'Voltaire', sans-serif;
   }
