@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 
-The following application will allow for users to create and store information related to their favorite hamburgers. By utilizing technologies such as; MySQL, Handlebars, Node.js, HTML, CSS, and others, users are able to enter information regarding their favorite hamburgers or a hamburger they have eaten. Then users are able to access this subsequent information whenever they would like to, since this data is being stored in a database. Users can enter any number of unique burger names into the input form and then denote whether they have eaten the burger, have not yet eaten the burger, or would like to eat the subsequent burger once again. To view this application in action, please follow this link to see it deployed via Heroku: LINKTBD
+The following application will allow for users to create and store information related to their favorite hamburgers. By utilizing technologies such as; MySQL, Handlebars, Node.js, HTML, CSS, and others, users are able to enter information regarding their favorite hamburgers or a hamburger they have eaten. Then users are able to access this subsequent information whenever they would like to, since this data is being stored in a database. Users can enter any number of unique burger names into the input form and then denote whether they have eaten the burger, have not yet eaten the burger, or would like to eat the subsequent burger once again. To view this application in action, please follow this link to see it deployed via Heroku: https://burger-with-handlebars.herokuapp.com/
 
 ## Description
 
